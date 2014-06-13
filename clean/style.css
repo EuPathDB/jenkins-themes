@@ -1,0 +1,11 @@
+
+/** hide the butler background image **/
+#main-table {
+  background-image: none !important;
+}
+
+
+/** hide the 'Help us localize this page' text in footer **/
+#l10n-footer {
+  display: none !important;
+}
