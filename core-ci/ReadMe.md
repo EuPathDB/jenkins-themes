@@ -1,4 +1,5 @@
 
+Theme for Core CI instance.
 
 background.png
 
@@ -8,3 +9,6 @@ background.png
     - #716b5b
     - #fff
     - 10% opacity
+
+
+![screenshot](screenshot.png)
