@@ -1,6 +1,11 @@
 
 Theme for Core CI instance.
 
+
+![screenshot](screenshot.png)
+
+
+
 background.png
 
   - ref: /static/036a3985/images/jenkins.png
@@ -10,5 +15,3 @@ background.png
     - #fff
     - 10% opacity
 
-
-![screenshot](screenshot.png)
