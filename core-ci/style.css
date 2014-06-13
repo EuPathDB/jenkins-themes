@@ -1,0 +1,54 @@
+/*
+ * OLB CSS Customization
+ *
+ * 1) install the Jenkins Simple Theme Plugin
+ * 2) install this in $JENKINS_HOME\.jenkins\userContent\css\style.css
+ * 3) configure: URL of theme CSS = /userContent/css/style.css
+ */
+
+/*
+ * Custom top bar.  This is the same size as the original, but you can
+ * put whatever you want here. I preferred the repeating image
+ *
+ */
+#top-panel {
+    background: none;
+    margin-bottom: 3pt;
+    height: 34px;
+    background-color: #434E3C;
+}
+
+/*
+ * Custom title, larger than the Jenkins default.  Make sure
+ * the width and height match the size of your image.
+ *
+ */
+#top-panel td > a {
+    background: url("title.png") 0 0 no-repeat;
+    display: block;
+    width: 300px;
+    height: 34px;
+    margin-bottom: 3pt;
+}
+
+#top-panel td > a img {
+      display: none; }
+
+ 
+#main-table {
+  background-image: url("background.png") !important;
+}
+
+#l10n-footer {
+  display: none !important;
+}
+
+#breadcrumbs {
+  background-color: #F5F4EB;
+}
+
+
+#breadcrumbs LI A {
+    color: black !important;
+}
+
