@@ -1,26 +1,58 @@
 
-#top-panel {
+#header {
     background: none;
-    margin-bottom: 3pt;
-    height: 34px;
     background-color: #434E3C;
+    height: 34px;
 }
 
-#top-panel td > a {
-    background: url("title.png") 0 0 no-repeat;
+#header .logo {
+  margin-left: 5px;  
+}
+
+#header A {
+  color: white;
+}
+
+#header .login a {
+  position: relative;
+  top: 0px;
+}
+
+
+#header div.searchbox{
+  float: right;
+  padding: 7px;
+}
+
+#search-box {
+  height:16px;
+}
+
+#jenkins-home-link {
+    background: url("title.png") no-repeat 0px 0px;
     display: block;
     width: 300px;
     height: 34px;
-    margin-bottom: 3pt;
 }
 
-#top-panel td > a img {
-      display: none; }
+#jenkins-name-icon {
+  display: none;
+}
+
+#jenkins-head-icon {
+  display: none;
+}
+
 
  
-#main-table {
+#page-body {
   background-image: url("background.png") !important;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-bottom: 50px;
+  margin-left: 10px;
 }
+
 
 /** hide the 'Help us localize this page' text in footer **/
 #l10n-footer {

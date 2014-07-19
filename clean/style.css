@@ -1,9 +1,13 @@
 
-/** hide the butler background image **/
-#main-table {
-  background-image: none !important;
+
+#header A {
+  color: white;
 }
 
+#header .login a {
+  position: relative;
+  top: 0px;
+}
 
 /** hide the 'Help us localize this page' text in footer **/
 #l10n-footer {
