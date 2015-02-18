@@ -46,7 +46,7 @@
 
  
 #page-body {
-  background-image: url("background.png") !important;
+  /** background-image: url("background.png") !important; **/
   background-repeat: no-repeat;
   background-position: bottom left;
   margin-bottom: 50px;
